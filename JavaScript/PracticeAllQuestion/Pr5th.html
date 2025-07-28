@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Print</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 50vh;
+            border: 1px solid black;
+            background-color: aqua;
+            /* display: flex; */
+
+        }
+
+        .container input {
+            /* float: ; */
+            margin-left: 100px;
+            width: 50%;
+            height: 18px;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            Enter the number and we print the table
+        </h1>
+
+        <input type="text" placeholder="Enter the number" id="giveNumber">
+        <button onclick="numbers()" style="padding: 10px;">
+            Click here
+        </button>
+        <h1>
+            Show the Tables
+        </h1>
+        <div class="result" id="result" style="margin-top: 20px; font-family: monospace;">
+
+        </div>
+        <!-- <input type="text" id="Show_table"> -->
+
+
+    </div>
+    <script src="./Pr5th.js"> </script>
+</body>
+
+</html>

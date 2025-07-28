@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#20e3ac, #e9f4e6, #e8e0ff, #5390d9, #5e60ce);
+  display: flex;
+  /* add the flex */
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  height: 800px;
+  /*margin: auto;
+    */
+  /margin-top: 10%;
+  */padding: 20px;
+  background-color: #fbfdff;
+  border: 5px solid black;
+
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+  /* margin-left: 400px;
+      */
+  font-size: 2rem;
+
+  margin-bottom: 40px;
+}
+.container button {
+  margin-left: 500px;
+  margin-top: 10px;
+  width: 180px;
+  height: 120px;
+  font-size: 1.2rem;
+  background-color: #5e60ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+.container button:hover {
+  background-color: #5390d9;
+}
+.showClock {
+  width: 80%;
+  height: 80px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fafcf9;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showClock input {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  border: none;
+  height: 100%;
+  background: transparent;
+}

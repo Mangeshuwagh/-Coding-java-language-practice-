@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Power </title>
+    <!-- Quesition.md -->
+    <!-- Q6. WAP to create function name as power(base,index) accept two values and calculate it -->
+    <!-- s power and return it -->
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(#19c896, #81df64, #efeaff, #5390D9, #5E60CE);
+            display: flex;
+
+        }
+
+        .container {
+            width: 100%;
+            height: 500px;
+            /* border: 1xp solid black; */
+            border: 1px solid rgb(0, 0, 0);
+            margin: auto;
+        }
+
+        #showResult {
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Enter the Power</h1>
+        <input type="text" placeholder=" Enter the 1st number " id="num1" oninput="calPower()">
+        <h1>
+            Enter the Second number
+        </h1>
+        <input type="text" placeholder="Enter the 2nd numbers " id="num2" oninput="calPower()">
+
+
+        <div class="showResult" id="showResult">
+
+        </div>
+
+    </div>
+    <script src="./Pr6th.js"></script>
+</body>
+
+</html>
