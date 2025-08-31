@@ -1,0 +1,21 @@
+Shubham Barandwal
+4:22 PM
+
+Q1) What is exception?
+
+Q2) Diff between exception and error
+
+Q3) How to handle exception? Or what is mechanism to handle exception?
+(Explain all keywords)
+
+Q4) What is diff between throw and throws
+
+Q5) What are the types of exception?
+
+String s = "Good Moring";     // StringIndexOutofBoundExp
+				//012345678910
+String sub = s.substring(4,15);// (start,end)
+System.out.println("sub String:"+sub);
+int a[]= {1,2,3,4,5,6}; // ArrayIndexOutOfBoundExp
+				//0,1,2,3,4,5 //
+pqe-mwdt-hia
